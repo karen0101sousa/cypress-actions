@@ -55,6 +55,6 @@ jobs:
       - name: Run E2E tests
         run: node runner-firefox.js
     env:
-      TARGET_TOKE_FIREFOX: ${{  secrets.TARGET_TOKEN_FIREFOX  }}
+      TARGET_TOKEN_FIREFOX: ${{  secrets.TARGET_TOKEN_FIREFOX  }}
       
       
