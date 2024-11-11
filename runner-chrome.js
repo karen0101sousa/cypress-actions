@@ -2,7 +2,7 @@ const cypress = require('cypress')
 const tesults = require('cypress-tesults-reporter');
 
 cypress.run({
-  brwoser: 'chrome'
+  browser: 'chrome'
 })
 .then((results) => {
   const args = {
